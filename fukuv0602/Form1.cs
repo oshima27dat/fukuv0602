@@ -20,6 +20,7 @@ namespace fukuv0602
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Left = label1.Left - 10;
+            label1.Width = label1.Width + 10;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -35,11 +36,13 @@ namespace fukuv0602
         private void button4_Click(object sender, EventArgs e)
         {
             label1.Left = label1.Left + 10;
+            label1.Width = label1.Width - 10;
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("大嶋柊哉\n");
+            label1.Visible = false;
         }
     }
 }
